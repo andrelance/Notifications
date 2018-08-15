@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StorageService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AzureStorageServiceConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=andrelanceblob;AccountKey=7XrSSfZwM27xTK/RdT7D30aVs6UF2tIxOMVaK/8ygs+E0e7I6GFALq30T2S51goxeUGZzykmZq0Es1I0zcekeA==;EndpointSuffix=core.windows.net</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

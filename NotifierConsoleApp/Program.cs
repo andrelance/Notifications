@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StorageService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,15 @@ namespace NotifierConsoleApp
     {
         static void Main(string[] args)
         {
+            // Crio o serviço de fila
+            QueueService queueService;
+            queueService = new QueueService();
+
+            Console.WriteLine("Digite a notificação: ");
+            string message = Console.ReadLine();
+
+            // Nome não pode ter maiúsculas nem caracteres especiais
+            queueService.AddMessage(message, "andre");
         }
     }
 }
